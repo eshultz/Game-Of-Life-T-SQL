@@ -11,4 +11,7 @@ But it works in a logical, easy to follow way.
 The goal is to get this working in a way that is much faster than the ~44 seconds for 2 generations
 that I get on my PC running SQL Express on an SSD.
 
+![](/res/poc.jpg)
+
 This will be updated as the project progresses.
+
