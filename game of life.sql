@@ -116,7 +116,7 @@ Here is a glider:
 So what we have to do is come up with an easy way to turn that list into a sql statement, to initialize the board.
 ******************************************************************************************************************/
 --print(concat('#BEGIN insert coords into [init] table: ',datediff(second, @start_time, getdate())))
---/*--beacon
+/*--beacon
 insert [init] ([row],[column]) values
 	(2,2),
 	(2,3),
@@ -127,7 +127,7 @@ insert [init] ([row],[column]) values
 	(5,4),
 	(5,5)
 --*/
-/*--glider
+--/*--glider
 insert [init] ([row],[column]) values
 	(2,3),
 	(3,4),
@@ -258,7 +258,7 @@ order by [row]
 ******************************************************************************/
 --print(concat('#BEGIN cte usage and insert into cell just the coords: ',datediff(second, @start_time, getdate())));
 
-with [columns] as (
+;with [columns] as (
 	select COLUMN_NAME 
 	from INFORMATION_SCHEMA.COLUMNS 
 	where TABLE_CATALOG = 'Life' 
