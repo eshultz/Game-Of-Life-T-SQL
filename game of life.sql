@@ -167,7 +167,7 @@ create table #cell(
 	[row] int not null,
 	[column] int not null,
 	cell_status bit not null default 0, -- 0 for dead and 1 for alive
-	neighbors tinyint not null default 0)
+	neighbors tinyint not null default 0);
 
 with [columns] as (
 	select COLUMN_NAME 
