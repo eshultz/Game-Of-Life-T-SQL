@@ -1,4 +1,4 @@
-There's not much to put here yet. :sad:
+There's not much to put here yet. :(
 
 This repo as of now contains two files, one which is a database creation script for SQL Server 2016, 
 and one which is the actual T-SQL code that runs the game.
