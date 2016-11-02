@@ -4,10 +4,6 @@
 		Ver. 0.2 (alpha) proof-of-concept
 		Author: Eric Shultz
 		Date: 11/2/2016
-
-		Note:	I am fully aware that this is not the way SQL is intended to be used.
-				This is not the type of code I write on daily basis.
-				With that said, this is going to be fun and very, very strange. =)
 *****************************************************************************************/
 
 use Life
